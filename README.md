@@ -6,5 +6,5 @@ Pour compiler la présentation à partir des sources:
 
 Python 3.3+ est requis.
 
-Autrement, on peut aussi juste [accéder à la version compilée](https://rawgit.com/hsoft/linuq-crypto/presentation.html)
+Autrement, on peut aussi juste [accéder à la version compilée](https://rawgit.com/hsoft/linuq-crypto/master/presentation.html)
 
