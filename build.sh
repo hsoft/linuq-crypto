@@ -11,6 +11,6 @@ if [ ! -d "env" ]; then
     ./env/bin/pip install -r requirements.txt
 fi
 
-./env/bin/landslide slides.mdown
+./env/bin/landslide slides.mdown -i
 xdg-open presentation.html
 
