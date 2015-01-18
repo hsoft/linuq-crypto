@@ -1,0 +1,3 @@
+# Python 3 version isn't released yet!
+-e git+https://github.com/adamzap/landslide.git@master#egg=landslide
+

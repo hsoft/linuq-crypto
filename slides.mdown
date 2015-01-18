@@ -1,0 +1,33 @@
+# Cryptographie et communications
+
+---
+
+# Qu'est-ce que l'encryption?
+
+* Symmétrique
+* Asymmétrique
+* Signatures cryptographiques
+* Applications dans les communications
+
+---
+
+# Pourquoi encrypter?
+
+* Geste citoyen
+* La signature a plus d'intérêt
+
+---
+
+# Comment encrypter?
+
+* Générer une clé et la publier
+* `gpg` à partir de la ligne de commande
+* Intégration aux logiciels de courriel
+
+---
+
+# Atelier
+
+* Échange de clés publiques
+* Configuration de logiciels de courriel
+
