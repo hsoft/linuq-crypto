@@ -4,10 +4,38 @@
 
 # Qu'est-ce que l'encryption?
 
-* Symmétrique
-* Asymmétrique
+* Symétrique
+* Asymétrique
 * Signatures cryptographiques
 * Applications dans les communications
+
+---
+
+# Encryption symétrique
+
+![Encryption symétrique](images/symmetric.png)
+
+* La clé secrète doit être partagée
+* Utile pour encryption privée (backup, dossiers secrets, etc.)
+* Non-sécuritaire pour la communication
+
+---
+
+# Encryption asymétrique - étape 1
+
+![Échange de clé publiques](images/asymmetric-1.png)
+
+* On échange seulement la clé **publique**.
+
+---
+
+# Encryption asymétrique - étape 2
+
+![Échange de message encrypté](images/asymmetric-2.png)
+
+* La clé privée n'est jamais communiqué
+* Seulement Bob peut lire le message encrypté
+* Même Alice ne peut pas décrypter son message
 
 ---
 
