@@ -7,7 +7,7 @@
 * Symétrique
 * Asymétrique
 * Signatures cryptographiques
-* Applications dans les communications
+* La confiance
 
 ---
 
@@ -36,6 +36,45 @@
 * La clé privée n'est jamais communiqué
 * Seulement Bob peut lire le message encrypté
 * Même Alice ne peut pas décrypter son message
+
+---
+
+# Communications sans signature
+
+![Communications sans signature](images/no-signature.png)
+
+* Très facile de s'immiscer dans la conversation
+* Rend trivial la propagation de virus
+
+---
+
+# Communications avec signature
+
+![Communications avec signature](images/signature.png)
+
+* Impossible de changer le message sans que ça soit su
+* Si on fait confiance à l'auteur et en la clé publique, on peut faire confiance au message
+
+---
+
+# Confiance: Autorités centrales
+
+![Autorités centrales](images/central-authority-trust.png)
+
+* Façon de fonctionner pour HTTPS
+* Le système d'exploitation impose une confiance implicite
+* Si une autorité se fait attaquer avec succès, les conséquences sont grandes
+
+---
+
+# Confiance: "Web of Trust"
+
+![Web of Trust](images/web-of-trust.png)
+
+* Façon de fonctionner pour PGP
+* Décentralisé
+* Difficile à mettre en place
+* Demande un niveau de compétence minimal de chaque participant
 
 ---
 
