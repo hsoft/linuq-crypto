@@ -80,12 +80,19 @@
 
 # Pourquoi encrypter?
 
-* Geste citoyen
-* La signature a plus d'intérêt
+## Geste citoyen
+
+* Rendre le travail de la NSA plus difficile
+* Rendre la vie des logiciels malicieux plus difficile
+
+## La signature a plus d'intérêt
+
+* Vérifier la signature des applications qu'on installe est primordial
+* Avant de pouvoir encrypter, il faut propager sa clé publique
 
 ---
 
-# Comment encrypter?
+# Comment encrypter? (demo)
 
 * Générer une clé et la publier
 * `gpg` à partir de la ligne de commande
